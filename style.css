@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.font1 {
+    font-family: 'Agency FB';
+}
+
+.font2 {
+    font-family: 'Vijaya';
+}
+
+.font3 {
+    font-family: 'Blackadder ITC';
+}
+
+.font4 {
+    font-family: 'Gill Sans Nova Cond Lt';
+}
+
+.font5 {
+    font-family: 'Musicals';
+}
+
+.font6 {
+    font-family: 'Bauhaus 93';
+}
+
+.font7 {
+    font-family: 'Broadway';
+}
+
+.font8 {
+    font-family: 'Curlz MT';
+}
+
+.font9 {
+    font-family: 'Gill Sans Nova Cond Ultra Bold';
+}
+
+.font10 {
+    font-family: 'Kristen ITC';
+}
+
+.font11 {
+    font-family: 'Berlin Sans FB';
+}
+
+.font12 {
+    font-family: 'Agency FB';
+}
+
+.text-red {
+    color: red;
+}
+
+.badge {
+    top: 8px;
+    right: -35px;
+}
+
+.footer-btn {
+    transition: 1s;
+    color: black;
+}
+
+.footer-btn:hover {
+    background-color: rgb(2, 2, 77);
+    color: white;
+}
+
+.main {
+    border-bottom: 2px solid gray;
+}
+
+header,
+footer {
+    background-color: rgb(169, 166, 166);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 15px;
+}
+
+.btn-register {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transition: 1s;
+    color: white;
+    border-radius: 100%;
+}
+
+.btn-register:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: black;
+}
+
+.logo-text {
+    font-family: 'Showboat';
+    font-variant: small-caps;
+    /* -webkit-text-stroke-color: rgb(12, 11, 11);
+    -webkit-text-stroke-width: 0.7px; */
+}
+
+.logo {
+    /* border: 1px solid gray; */
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 65%;
+}
+
+.date {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 15px;
+    border-bottom: 1px solid rgb(0, 0, 9);
+    border-top: 1px solid rgb(0, 0, 9);
+    font-family: 'Sundoes';
+    letter-spacing: 0.5px;
+    color: rgb(97, 97, 97);
+}
+
+hr {
+    width: 50%;
+    margin-left: 25%;
+    background-image: linear-gradient(gray, black, gray);
+}
+
+.navbar-brand {
+    font-family: 'Gruvilicious';
+}
+
+.navbar {
+    color: gray;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.card-header:first-child {
+    font-weight: bold;
+}
+
+.card {
+    margin: 5px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-link {
+    transition: 1s;
+}
+
+.contact-link:hover {
+    font-size: 1.5rem;
+}
+
+@media screen and ( min-width: 1200px) {
+    .logo-text {
+        font-size: 7rem;
+    }
+    .date {
+        font-size: 1.7rem;
+    }
+    hr {
+        height: 0.3rem;
+    }
+    .column:nth-child(1) {
+        border-right: 2px solid rgb(73, 73, 73);
+    }
+    .column:nth-child(2) {
+        border-right: 2px solid rgb(73, 73, 73);
+    }
+    .column:nth-child(3) {
+        border-right: 2px solid rgb(73, 73, 73);
+    }
+    .footer-left {
+        width: 25%;
+    }
+}
+
+@media screen and ( max-width: 1199px) and (min-width: 993px) {
+    .logo-text {
+        font-size: 5rem;
+    }
+    .date {
+        font-size: 1.5rem;
+    }
+    hr {
+        height: 0.2rem;
+    }
+    .column:nth-child(1) {
+        border-right: 2px solid rgb(73, 73, 73);
+    }
+    .column:nth-child(2) {
+        border-right: 2px solid rgb(73, 73, 73);
+    }
+    .footer-left {
+        width: 25%;
+    }
+}
+
+@media screen and ( max-width: 992px) and (min-width: 769px) {
+    .logo-text {
+        font-size: 5rem;
+    }
+    .date {
+        font-size: 1.5rem;
+    }
+    hr {
+        height: 0.2rem;
+    }
+    .column:nth-child(1) {
+        border-right: 2px solid rgb(73, 73, 73);
+    }
+    .footer-left {
+        width: 25%;
+    }
+}
+
+@media screen and ( max-width: 768px) {
+    .logo-text {
+        font-size: 2rem;
+    }
+    .date {
+        font-size: 1rem;
+    }
+    hr {
+        height: 0.1rem;
+    }
+    .footer-left {
+        width: 90%;
+    }
+}
